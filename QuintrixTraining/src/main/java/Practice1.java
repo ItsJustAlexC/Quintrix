@@ -62,12 +62,5 @@ public class Practice1 {
 
         String text = "This is a Regex test";
         System.out.println("\nOriginal text: " + text+ "\nRegex used: "+text.replaceAll("i","@").replaceAll("e","#"));
-
-
-        String word = "a";
-        if(word.getClass().getName().equals("java.lang.String")){
-            System.out.println("true");
-        }
-        System.out.println(word.getClass().getName());
     }
 }

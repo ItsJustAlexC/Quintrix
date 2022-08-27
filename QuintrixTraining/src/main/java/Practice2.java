@@ -1,13 +1,13 @@
+import com.mysql.cj.jdbc.MysqlDataSource;
 import java.time.LocalTime;
 import java.time.OffsetTime;
 import java.time.ZoneId;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class Practice2 {
     public static void main(String[] args) {
+
         List<Object> list = new ArrayList<>();
         list.add(1);
         list.add("a");
